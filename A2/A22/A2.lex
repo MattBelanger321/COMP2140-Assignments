@@ -38,11 +38,11 @@ import java.util.*;
     writer.write("\ncoments: " + comments);
     writer.write("\nlines: " + lines);
     writer.write("\nquotedString: " + quotes);
-	writer.write("\nidentifiers: " + ids);
+    writer.write("\nidentifiers: " + ids);
 
-	writer.close();
-	reader.close();
-	System.exit(0);
+    writer.close();
+    reader.close();
+    System.exit(0);
 %eofval}
 
 IDENTIFIER = [a-zA-Z][a-zA-Z0-9]*
