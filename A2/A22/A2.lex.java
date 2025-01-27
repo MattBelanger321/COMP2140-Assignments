@@ -273,10 +273,10 @@ class A2Lexer {
     writer.write("\ncoments: " + comments);
     writer.write("\nlines: " + lines);
     writer.write("\nquotedString: " + quotes);
-	writer.write("\nidentifiers: " + ids);
-	writer.close();
-	reader.close();
-	System.exit(0);
+    writer.write("\nidentifiers: " + ids);
+    writer.close();
+    reader.close();
+    System.exit(0);
 			}
 			if (YY_F != yy_next_state) {
 				yy_state = yy_next_state;
